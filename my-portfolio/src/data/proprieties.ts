@@ -1,10 +1,10 @@
-import { IFlexProperties} from '../model/FlexProperties';
+import FlexProperties from '../model/FlexProperties';
 
 export function FlexListProperties() {
-  const properties: Array<IFlexProperties> = [
+  const properties: Array<FlexProperties> = [
     {
       name:'flex-direction',
-      values:['row ', 'row-reverse', 'column', 'column-reverse']
+      values:['row', 'row-reverse', 'column', 'column-reverse']
     },
     {
       name:'flex-wrap',

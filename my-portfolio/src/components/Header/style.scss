@@ -1,0 +1,17 @@
+.header-container {
+  height: 90px;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  top: 50px;
+  position: relative;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
